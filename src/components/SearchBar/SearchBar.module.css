@@ -1,0 +1,34 @@
+.container {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formbtn{
+    margin: 0 10px;
+    cursor: pointer;
+    text-transform: capitalize;
+    background-color: salmon;
+    border: none;
+    font-size: 15px;
+    padding: 10px 15px;
+}
+
+.forminput{
+    height: 40px;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 80px;
+
+}
+
+.radio {
+    cursor: pointer;
+    margin: 10px;
+}

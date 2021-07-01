@@ -1,0 +1,43 @@
+.table {
+    padding: 20px;
+    margin: 10px auto;
+    border: 1px solid black;
+    height: 500px;
+    border-collapse: collapse;
+    width: 90%;
+    border-spacing: 5px;
+}
+
+td {
+    padding: 15px;
+}
+
+tr {
+    height: 80px;
+}
+
+.icon {
+    font-size: 15px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.iconContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.theader {
+    font-weight: 400;
+    text-align: left;
+    padding-right: 10px;
+    background-color: black;
+    color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #eeeff3;
+}
+.comercio{
+    max-width: 100px;
+}

@@ -1,0 +1,1 @@
+export const baseURI = 'https://api.koibanx.com/stores'
